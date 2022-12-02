@@ -1,0 +1,87 @@
+dtach (0.9-5) unstable; urgency=low
+
+  * Fix vcswatch
+  * Update to policy version 4.3.0
+  * Fix lintian file-contains-trailing-whitespace
+  * Upgrade to debhelper 10
+
+ -- Stefan Völkel <bd@bc-bd.org>  Sat, 29 Dec 2018 18:11:34 +0100
+
+dtach (0.9-4) unstable; urgency=low
+
+  * Update to policy version 4.0.0
+  * Use gbq patch queue for patches
+  * Update to policy version 4.1.0
+  * Update to policy version 4.2.1
+  * Add vcs-*: headers
+  * debian/watch: switch to https
+  * Enable hardening
+  * Note that we do not have a testsuite
+
+ -- Stefan Völkel <bd@bc-bd.org>  Tue, 25 Dec 2018 15:36:06 +0100
+
+dtach (0.9-2) unstable; urgency=medium
+
+  [ Helmut Grohne ]
+  * Fix FTCBFS: Drop unnecessary override_dh_auto_configure (Closes: #851200)
+
+ -- Stefan Völkel <bd@bc-bd.org>  Sun, 12 Feb 2017 16:46:39 +0100
+
+dtach (0.9-1) unstable; urgency=low
+
+  * New upstream release (Closes: #804944, #805417)
+  * Updated maintainer email address
+  * Add debian files to .gitignore via patch
+  * Drop patch for CVE-2012-3368, included upstrean
+  * Fix lintian homepage-in-binary-package
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Fix lintian quilt-patch-missing-description
+  * Update debian/copyright to dep5
+  * Updated debhelper version to 9
+
+ -- Stefan Völkel <bd@bc-bd.org>  Sat, 21 May 2016 10:04:42 +0200
+
+dtach (0.8-3) unstable; urgency=low
+
+  * Add quilt dependency
+  * Acknowledge NMU but convert to patch
+  * Fix lintian warning debhelper-but-no-misc-depends
+  * Updated to Policy version 3.9.8.0, no changes
+  * Fix lintian warning debian-rules-missing-recommended-target
+  * Simplify debian/rules
+  * Enable hardening
+
+ -- Stefan Völkel <stefan@bc-bd.org>  Tue, 03 May 2016 16:54:37 +0200
+
+dtach (0.8-2.1) unstable; urgency=high
+
+  * Non-maintainer upload by the Security Team.
+  * Fix CVE-2012-3368: properly handle close request (Closes: #625302).
+
+ -- Luk Claes <luk@debian.org>  Mon, 02 Jul 2012 01:53:44 +0200
+
+dtach (0.8-2) unstable; urgency=low
+
+  * Updated to Policy version 3.8.1
+  * Updated watch file to version 3
+  * Updated debhelper version to 7
+  * Converted debian/{changelog,control} to UTF-8
+  * Fixed lintian warning dh-clean-k-is-deprecated
+
+ -- Stefan Völkel <stefan@bc-bd.org>  Mon, 30 Mar 2009 15:07:02 +0200
+
+dtach (0.8-1) unstable; urgency=low
+
+  * New upstream release (Closes: #438335)
+  * Updated to Policy version 3.7.3
+  * New maintainer email address
+  * New description (Closes: #391580)
+
+ -- Stefan Voelkel <stefan@bc-bd.org>  Thu, 31 Jan 2008 14:55:58 +0100
+
+dtach (0.7-1) unstable; urgency=low
+
+  * New upstream release
+  * Initial Release (Closes: #251196).
+
+ -- Stefan Voelkel <stefan.voelkel@millenux.com>  Mon,  5 Jul 2004 12:09:12 +0200

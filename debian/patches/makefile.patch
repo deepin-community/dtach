@@ -1,0 +1,22 @@
+From: =?utf-8?q?Stefan_V=C3=B6lkel?= <bd@bc-bd.org>
+Date: Fri, 16 Nov 2018 15:02:51 +0100
+Subject: makefile
+
+Remove build artifacts
+---
+ Makefile.in | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile.in b/Makefile.in
+index 11afcd3..cc22d67 100644
+--- a/Makefile.in
++++ b/Makefile.in
+@@ -21,7 +21,7 @@ clean:
+ 	rm -f dtach $(OBJ) dtach-$(VERSION).tar.gz
+ 
+ distclean: clean
+-	rm -f config.h Makefile config.log config.status config.cache
++	rm -f config.h Makefile config.log config.status config.cache config.guess config.sub
+ 
+ tar:
+ 	mkdir dtach-$(VERSION)

@@ -1,0 +1,6 @@
+This package uses quilt to manage all modifications to the upstream
+source. Please look at
+
+	/usr/share/doc/quilt/README.source
+
+to get the fully patched source after unpacking the source package.

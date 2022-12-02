@@ -1,0 +1,26 @@
+Source: dtach
+Section: misc
+Priority: optional
+Maintainer: Stefan Völkel <bd@bc-bd.org>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.3.0
+Homepage: http://dtach.sourceforge.net/
+Vcs-Browser: https://salsa.debian.org/voelkel-guest/dtach
+Vcs-Git: https://salsa.debian.org/voelkel-guest/dtach.git
+
+Package: dtach
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: emulates the detach/attach feature of screen
+ dtach is a tiny program that emulates the detach feature of screen,
+ allowing you to run a program in an environment that is protected from
+ the controlling terminal and attach to it later. dtach does not keep
+ track of the contents of the screen, and thus works best with programs
+ that know how to redraw themselves.
+ .
+ dtach does not, however, have the other features of screen, such as its
+ support of multiple terminals or its terminal emulation support. This
+ makes dtach extremely tiny compared to screen, making it more easily
+ audited for bugs and security holes, and also allows it to fit in
+ environments where space is limited, such as on rescue disks.
+ .
